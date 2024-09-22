@@ -1,0 +1,77 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.json-fieldset {
+  width: 420px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.json-fieldset legend {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.json-input {
+  width: 400px;
+  height: 30px;
+  font-size: 14px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.submit-button {
+  background-color: #007bff;
+  width: 440px;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.submit-button:hover {
+  background-color: #0056b3;
+}
+
+.multi-filter {
+  margin-bottom: 20px;
+}
+
+.multi-filter h3 {
+  margin-bottom: 10px;
+}
+
+.multi-filter legend {
+  margin-right: 15px;
+  font-size: 14px;
+}
+.multi-filter select{
+  border: none;
+  width: 420px;
+}
+.filtered-response {
+  width: 400px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.filtered-response h3 {
+  margin-bottom: 10px;
+}
+
+.filtered-response div {
+  margin-bottom: 5px;
+}
